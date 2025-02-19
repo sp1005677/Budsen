@@ -1,0 +1,29 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.budzen.WelcomeFragment"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome" />
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.budzen.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.budzen.LessonsFragment"
+        android:label="Lessons"
+        tools:layout="@layout/fragment_lessons" />
+
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.budzen.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
+</navigation>

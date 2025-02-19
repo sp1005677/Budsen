@@ -1,0 +1,5 @@
+<resources>
+    <color name="primary">#0A74DA</color>  <!-- Budzen Blue -->
+    <color name="secondary">#FFD700</color>  <!-- Gold for highlights -->
+    <color name="background">#F5F5F5</color>  <!-- Light gray -->
+</resources>
